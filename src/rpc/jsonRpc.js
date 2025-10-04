@@ -1,12 +1,12 @@
 // src/rpc/jsonRpc.js
 
+// To See Host:- press "Win + R"  -> "cmd" -> "ipconfig" -> ipV4 
+
 // const HOST = '10.0.2.2';
-//const HOST = "192.168.224.180";
- const HOST = "192.168.1.21";
 
 const PORT = 8069;
 
-const DB = 'odoo_db';
+const DB = 'odoo18_other';
 const URL = `http://${HOST}:${PORT}/jsonrpc`;
 
 async function jsonRpcCall(method, params) {
